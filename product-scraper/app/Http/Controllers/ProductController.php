@@ -210,7 +210,7 @@ class ProductController extends Controller
 
     private function scraping($url)
     {
-        $apiKey = "06462c275b9d7357054cb1a993ef3132";
+        $apiKey = "test";
         $response = Http::get("http://api.scraperapi.com", [
             'api_key' => $apiKey,
             'url' => $url,
