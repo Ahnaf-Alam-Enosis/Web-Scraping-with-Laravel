@@ -69,7 +69,7 @@ class ProductController extends Controller
                 Respond with only the JSON output.
             EOT;
 
-        $apiKey = "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";
+        $apiKey = 'test';
 
         try {
             $response = Http::timeout(80)->withHeaders([
