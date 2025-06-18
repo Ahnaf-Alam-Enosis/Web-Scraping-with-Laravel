@@ -37,7 +37,7 @@ class ProductController extends Controller
 
         // echo '<pre>';
 
-        $apiKey = "06462c275b9d7357054cb1a993ef3132";
+        $apiKey = "Test";
         $response = Http::get("http://api.scraperapi.com", [
             'api_key' => $apiKey,
             'url' => $url,
@@ -114,7 +114,7 @@ class ProductController extends Controller
 
         $url = $request->input('url');
 
-        $apiKey = "06462c275b9d7357054cb1a993ef3132";
+        $apiKey = "test";
         $scraperResponse = Http::get("http://api.scraperapi.com", [
             'api_key' => $apiKey,
             'url' => $url,
